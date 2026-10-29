@@ -11,6 +11,10 @@ export default defineConfig({
       "@": resolve(import.meta.dirname, "./src"),
     },
   },
+  build: {
+    outDir: "../server/public",
+    emptyOutDir: true,
+  },
   server: {
     port: 5173,
     proxy: {
