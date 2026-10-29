@@ -10,6 +10,7 @@ lerna-debug.log*
 # Files
 .env
 .env.*
+!.env.example
 
 # Folders
 node_modules
